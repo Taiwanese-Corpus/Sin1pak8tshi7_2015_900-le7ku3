@@ -12,7 +12,7 @@ with open(join(dirname(abspath(__file__)), '例句.csv')) as 檔:
             音標 = row['例句標音'].strip()
             例句資料[漢字]=音標
 
-print('055 160 169 177 184 佮例句表無仝，已經檢查過矣！')
+print('055 160 169 177 184 佮例句表無仝，愛人工檢查！')
 
 with open('minnan900.json') as jff:
     全部資料=json.load( jff)
