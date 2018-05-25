@@ -3,21 +3,21 @@
 ## 資料流程
 `minnan900.pdf`=>`minnan900.txt`=>`minnan900.json`=>`minnan900.分詞`
 
-### minnan900.pdf
+### minnan900.pdf（無維護）
 原始CD檔案
 
-### minnan900.txt
+### minnan900.txt（無維護）
 ```
 pdftotext minnan900.pdf -raw
 ```
 
-### minnan900.json
+### minnan900.json（有維護）
 ```
 python3 txt2.json.py
 ```
 會當用`json_fixed_by_moedict.py`檢查
 
-### minnan900.分詞
+### minnan900.分詞（有維護）
 ```
 python3 json2分詞.py
 ```
